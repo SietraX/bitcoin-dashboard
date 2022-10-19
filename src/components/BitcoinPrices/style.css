@@ -1,0 +1,29 @@
+.bitcoin-prices-container {
+  display: flex;
+  justify-content: end;
+  color: #fcfafa;
+  padding: 20px 20px 40px 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+  
+}
+
+.bitcoin-price {
+  margin-left: 10px;
+}
+
+.increase-blinker {
+  animation: blinker 1s linear infinite;
+  color: #1db954;
+}
+
+.decrease-blinker {
+  animation: blinker 1s linear infinite;
+  color: #ce2b2b;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,72 @@
+
+.timer-value {
+  font-size: 8rem;
+  font-weight: 700;
+  color: #fcfafa;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.kick-buttons-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.adjustment-button {
+  margin-right: 10px;
+  margin-left:10px;
+  padding: 2px 11px 2px 11px;
+  background-color: transparent;
+  color: #fcfafa;
+  opacity: 0.6;
+  transition: 0.5s;
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+.adjustment-button:hover {
+  color: black;
+  background-color: #1db954;
+  opacity: 1;
+}
+
+.kick-button-start {
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 2px 11px 2px 11px;
+  background-color: transparent;
+  color: #fcfafa;
+  opacity: 0.6;
+  transition: 0.5s;
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+.kick-button-start:hover {
+  color: black;
+  background-color: #1db954;
+  opacity: 1;
+}
+
+.kick-button-reset {
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 2px 11px 2px 11px;
+  background-color: transparent;
+  color: #fcfafa;
+  opacity: 0.6;
+  transition: 0.5s;
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+.kick-button-reset:hover {
+  color: black;
+  background-color: #d49144;
+  opacity: 1;
+}
+
+
